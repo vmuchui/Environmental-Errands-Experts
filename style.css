@@ -810,7 +810,7 @@ section {
 
 .footer__link {
   font-weight: var(--fw-bold);
-  color: var(--light-color);
+  color: var(--dark-color);
 }
 .footer a {
   color: inherit;
