@@ -16,7 +16,7 @@
     <nav class="navbar">
       <ul class="navbar-nav">
         <li class="logo">
-          <a href="#" class="nav-link">
+          <p class="nav-link">
             <span class="link-text logo-text">EEE</span>
             <svg
               width="120"
@@ -47,11 +47,13 @@
                 </g>
               </g>
             </svg>
-          </a>
+          </p>
         </li>
 
         <li class="nav-item">
           <a href="#" class="nav-link">
+            
+            <span class="link-text">Home</span>
             <svg
               width="120"
               height="100"
@@ -81,24 +83,30 @@
                 </g>
               </g>
             </svg>
-            <span class="link-text">EEE</span>
           </a>
         </li>
 
         <li class="nav-item">
-          <a href="#sign-up" class="nav-link">
-            <span class="link-text">Sign Up</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
+          
           <a href="#about-us" class="nav-link">
+            
+          
             <span class="link-text">About Us</span>
           </a>
         </li>
 
         <li class="nav-item">
+          <a href="#sign-up" class="nav-link">
+            
+          
+            <span class="link-text">Sign Up</span>
+          </a> 
+        </li>
+
+        <li class="nav-item">
           <a href="#contact-us" class="nav-link">
+           
+          
             <span class="link-text">Contact Us</span>
           </a>
         </li>
@@ -190,7 +198,11 @@
       <section class="blue" id="home">
         <h1>Welcome to EEE!</h1>
         <p>Environmental Errands Experts. The sustainability experts.</p>
-
+        <p>  Environmental Errands Experts is a social
+          enterprise that mostly deals in issues pertaining sustainability and
+          Environmental impact.
+          
+        </p>
         <div class="wave">
           <svg
             data-name="Layer 1"
@@ -206,89 +218,95 @@
         </div>
       </section>
 
-      <div class="spacer layer2">
-          
-         
-        <section class="bubble" id="sign-up">
-          <div class="login-wrapper blob-content">
-            <form action="" class="form">
-              <img src="img/avatar.png" alt="" />
-              <h2>Login</h2>
-              <div class="input-group">
-                <input type="text" name="loginUser" id="loginUser" required />
-                <label for="loginUser">User Name</label>
-              </div>
-              <div class="input-group">
-                <input
-                  type="password"
-                  name="loginPassword"
-                  id="loginPassword"
-                  required
-                />
-                <label for="loginPassword">Password</label>
-              </div>
-              <input type="submit" value="Login" class="submit-btn" />
-              <a href="#forgot-pw" class="forgot-pw">Forgot Password?</a>
-            </form>
-    
-            <div id="forgot-pw">
-              <form action="" class="form">
-                <a href="#" class="close">&times;</a>
-                <h2>Reset Password</h2>
-                <div class="input-group">
-                  <input type="email" name="email" id="email" required />
-                  <label for="email">Email</label>
-                </div>
-                <input type="submit" value="Submit" class="submit-btn" />
-              </form>
-            </div>
-          </div>
-          
-         
-    
-        </section>
-        </div>
       
-        <section class="pink" id="about-us">
+        <section class="pink my-projects" id="about-us">
           
-      <h1>About Us</h1>     
+      <h1 class="section__subtitle--my-projects">About Us</h1>     
           <h2>
 
-            Our mission:
+            Our mission: To promote sustainable industries in Africa and all over the globe.
           </h2>
           <h2>
-            Our vision:
+            Our vision: To promote sustainable livelihood for at least 500,000 households and small scale industries for africa by 2030. 
           </h2>
 
-      <p>  Environmental Errands Experts is a social
-        enterprise that mostly deals in issues pertaining sustainability and
-        Environmental impact.
-        <div class="blob-content">
-          <h1>Board of Directors</h1>
-          <a
-          href=""
-          class="portfolio__item card"
-          target="_blank"
-        >
-          <img src="./img/bg.jpg" alt="bod-1" class="portfolio__img" />
-        </a>
-        </div>
-      </p>
+    
+      <h1 class="section__title section__title--my-projects">Board of Directors</h1>
+      <div class="portfolio blob-content">
+       
+         
+            <a
+            href=""
+            class="portfolio__item card"
+            target="_blank"
+          >
+            <img src="./img/bg.jpg" alt="bod-1" class="portfolio__img" />
+            <p>Mario Kainga - Chairman BOD</p>
+            
+          </a>
+            
+               
+      
+      </div>
     </section>
 
-      
+    <div class="spacer layer2">
+          
+         
+      <section class="bubble" id="sign-up">
+        <div class="login-wrapper">
+          <form action="" class="form">
+            <img src="img/avatar.png" alt="avatar" />
+            <h2>Login</h2>
+            <div class="input-group">
+              <input type="text" name="loginUser" id="loginUser" required />
+              <label for="loginUser">User Name</label>
+            </div>
+            <div class="input-group">
+              <input
+                type="password"
+                name="loginPassword"
+                id="loginPassword"
+                required
+              />
+              <label for="loginPassword">Password</label>
+            </div>
+
+            <a href="#sign-up" class="forgot-pw nav-link">Login</a>
+            <br>
+            <a href="#forgot-pw" class="forgot-pw nav-link">Forgot Password?</a>
+          </form>
+  
+          <div id="forgot-pw">
+            <form action="" class="form">
+              <a href="#" class="close">&times;</a>
+              <h2>Reset Password</h2>
+              <div class="input-group">
+                <input type="email" name="email" id="email" required />
+                <label for="email">Email</label>
+              </div>
+              <input type="submit" value="Submit" class="submit-btn" />
+            </form>
+          </div>
+        </div>
+        
+       
+  
+      </section>
+      </div>
+   
      
       
       
       
 
-      <section id="contact-us" class="card footer portfolio footer-wrapper">
+      <section id="contact-us" class="pink card footer portfolio footer-wrapper">
         
-        <h2>Contact Us</h2>
-        <div class="">
+        <h1>Contact Us</h1>
+        <div class="pink portfolio__item">
           <a
             href="mailto:kkaigongi@gmail.com"
-            class="portfolio__item card footer__link nav-link"
+            class="footer__link nav-link"
           >
           <h5>
 
@@ -297,16 +315,16 @@
           </a>
           
           <h5 
-          class="portfolio__item card footer__link nav-link">
+          class="footer__link nav-link">
             Call Us: 
             +254729389861/ +254722999204
           </h5>
-         <p></p>
+         
 
         
 
      
-      <p class="portfolio__item card"><span>&copy;</span> ENVIRONMENTAL ERRANDS EXPERTS 2023</p>
+        <p class="blob-content"><span>&copy;</span> ENVIRONMENTAL ERRANDS EXPERTS 2023</p>
             
         </div>
        
